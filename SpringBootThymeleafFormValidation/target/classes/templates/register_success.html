@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Training Center  details</title>
+<style type="text/css">
+	span {
+		display: inline-block;
+		width: 200px;
+		text-align: left;
+	}
+</style>
+</head>
+<body>
+	<div align="center">
+		<h2>Registration Succeeded!</h2>
+		<span>Institue Name :</span><span th:text="${user.name}"></span><br/>
+		<span>Institute Code:</span><span th:text="${user.code}"></span><br/>
+			<span>Detailed_Address:</span><span th:text="${user.Detailed_Address}"></span><br/>
+				<span>city:</span><span th:text="${user.city}"></span><br/>
+					
+						<span>city:</span><span th:text="${user.city}"></span><br/>
+					
+									<span>state:</span><span th:text="${user.state}"></span><br/>
+					
+					
+					
+					<span>pincode:</span><span th:text="${user.pincode}"></span><br/>
+							<span>capacity:</span><span th:text="${user.capacity}"></span><br/>
+							<span>pincode:</span><span th:text="${user.pincode}"></span><br/>
+					<span>email:</span><span th:text="${user.email}"></span><br/>
+					<span>course:</span><span th:text="${user.course}"></span><br/>
+
+					<span>phone:</span><span th:text="${user.phone}"></span><br/>
+
+	</div>
+</body>
+</html>

@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.durgasoft</groupId>
-	<artifactId>SecureApp222</artifactId>
+	<artifactId>SecureApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SecureApp</name>
 	<description>Demo project for Spring Boot</description>
